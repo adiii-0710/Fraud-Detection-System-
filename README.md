@@ -25,6 +25,7 @@ Functions
 Binary Search
 Linear Scan
 Conditional Logic
+
 🚀 Features
 Detects suspicious transactions
 Calculates fraud risk score
@@ -32,6 +33,7 @@ Uses Binary Search for efficient searching
 Uses Linear Scan for repeated transaction detection
 Displays transaction details with fraud status
 Simple and beginner-friendly C++ implementation
+
 🧠 Algorithms Used
 1. Binary Search
 
@@ -45,15 +47,18 @@ Used to detect repeated transactions by the same user.
 
 Time Complexity
 O(n)
+
 📂 Project Structure
 Fraud-Detection-System/
 │
 ├── main.cpp
 ├── README.md
+
 🛠️ Technologies Used
 C++
 VS Code / Code::Blocks
 GCC Compiler
+
 📋 Fraud Detection Logic
 
 The system increases risk score when:
@@ -65,12 +70,14 @@ Same user performs repeated transactions
 Risk Evaluation
 Risk Score >= 50 → FRAUD ALERT
 Risk Score < 50  → SAFE
+
 ▶️ Sample Input
 {1, "Arman", 300, "Mumbai", 0, 0},
 {2, "Rahul", 8000, "Dubai", 1, 1},
 {3, "Salman", 400, "Dubai", 1, 1},
 {4, "Sahil", 500, "Mumbai", 1, 1},
 {5, "Priya", 10000, "London", 1, 1}
+
 📤 Sample Output
 Transaction ID : 2
 User           : Rahul
@@ -87,18 +94,21 @@ Data structures
 Risk analysis logic
 Real-world fraud detection concepts
 C++ programming fundamentals
+
 👥 Team Contribution
 Member	Role
 Member 1	Input/Output Handling
 Member 2	Data Structures & Transaction Management
 Member 3	Searching & Suspicious Pattern Detection
 Member 4	Risk Analysis & Fraud Logic
+
 📌 Future Improvements
 Database integration
 Real-time transaction monitoring
 Machine Learning based fraud prediction
 GUI implementation
 OTP verification system
+
 📚 References
 Introduction to Algorithms – Cormen
 GeeksforGeeks – Binary Search
